@@ -1,4 +1,4 @@
-# Team Cars_For_Sale
+# Team Cars For Sale
 SoftDev Project 1: Winnie Huang(PM), Madelyn Mao, Jeffrey Huang, William Li
 
 ## Description
