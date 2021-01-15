@@ -1,1 +1,20 @@
-# cars_for_sale__whuang10_mmao10_jhuang11_wli15
+# Team Cars_For_Sale
+SoftDev Project 1: Winnie Huang(PM), Madelyn Mao, Jeffrey Huang, William Li
+
+## Description: 
+
+
+## Duties of Each Member
+Winnie (PM) 
+  - 
+
+Madelyn 
+  - 
+
+Jeffrey  
+  - 
+
+William  
+  - 
+
+## Launch codes:
