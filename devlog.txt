@@ -1,3 +1,9 @@
 Team Cars For Sale DEVLOG
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Cars For Sale -- 2020-01-21 09:57
+	- Consulting over how to properly run a flask app with apache
+	- Finding issues with pathing and looking to resolve them 
+	- Each dev has droplet running and looking to have a proper webserver
+	- Planning on meeting this weekend to finalize serving app with apache
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
