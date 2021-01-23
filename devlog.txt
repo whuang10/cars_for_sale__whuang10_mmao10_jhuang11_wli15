@@ -7,3 +7,10 @@ Cars For Sale -- 2020-01-21 09:57
 	- Each dev has droplet running and looking to have a proper webserver
 	- Planning on meeting this weekend to finalize serving app with apache
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Cars For Sale -- 2020-01-23 17:21
+	- Fixed permission settings for users to be able to edit database files
+	- Added absolute paths for database files within __init__.py (consulted with Eric)
+	- Configuration settings (consulted with Karl)
+	- Decided on using P0 of Team Elephant to run on the Digital Ocean droplet
+	- Awaiting further instructions
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
