@@ -18,4 +18,4 @@ William
   - Showed how to install and run packages needed in apache
 
 ## Launch codes:
-run : http://104.236.9.154/
+Run on a web browser: http://104.236.9.154/
