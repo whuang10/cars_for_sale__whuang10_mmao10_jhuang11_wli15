@@ -2,7 +2,7 @@
 SoftDev Project 1: Winnie Huang(PM), Madelyn Mao, Jeffrey Huang, William Li
 
 ## Description:
-
+We ran Team Elephant's P0 Story Building Website on an apache server.
 
 ## Duties of Each Member
 Winnie (PM) 
