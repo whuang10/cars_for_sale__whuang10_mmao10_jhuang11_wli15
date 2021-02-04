@@ -19,3 +19,8 @@ William
 
 ## Launch codes:
 Run on a web browser: http://104.236.9.154/
+
+`git clone https://github.com/whuang10/cars_for_sale__whuang10_mmao10_jhuang11_wli15.git`
+`cd cars_for_sale__whuang10_mmao10_jhuang11_wli15`
+`pip install -r requirements.txt`
+`python3 app/__init__.py`
