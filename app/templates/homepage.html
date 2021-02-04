@@ -1,1 +1,42 @@
+<!--
+Team Elephant (Jeffrey Huang, Matthew Hui, Winnie Huang, Ethan Machleder)
+SoftDev
+P0 - Da Art of Storytellin' (Pt. 2)
+2021-1-07
+-->
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="../static/css/layout.css">
+    <title> Homepage </title>
+  </head>
+  <body>
 
+    <h1>    Welcome {{ user }} !    </h1>
+    <h2> {{message}}  </h2>
+
+    {% if contribution_list| length > 0 %}
+		<h3> Stories You've Contributed To: </h3>
+		{% for title in contribution_list %}
+			<form action = "/story_view" method = "post">
+				<input type = "hidden" value = "1" name = "editor">
+				<input type = "submit" value = "{{title}}" name = "title">
+			</form>
+		{% endfor %}
+    {% endif %}
+
+    <h3> Create A New Story: </h3>
+    <form action = "/create_story">
+      <input type = "submit" value = "Create Story">
+    </form>
+
+    <h3> Edit an Existing Story: </h3>
+    <form action = "/story_edit">
+      <input type = "submit" value = "Edit Stories">
+    </form>
+
+    <h3> Logout: </h3>
+    <form action = "/logout">
+      <input type = "submit" value = "Logout">
+    </form>
+</html>
