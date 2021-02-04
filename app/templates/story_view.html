@@ -1,1 +1,34 @@
+<!--
+Team Elephant (Jeffrey Huang, Matthew Hui, Winnie Huang, Ethan Machleder)
+SoftDev
+P0 - Da Art of Storytellin' (Pt. 2)
+2021-1-07
+-->
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="../static/css/layout.css">
+    <title> View Story </title>
+  </head>
+  <body>
+    <h1> Title: {{title}} </h1>
+    {% if editor == 0 %}
+    <h2> Last Contribution: </h2>
+    {{recent}}
+		<form action = "/story_editor" method = "post">
+			<h2>	New Text:	</h2>
+			<input type = "hidden" value = "{{title}}" name = "title">
+			<span> <h5> <input type = "text" value = "" name = "new_text"> </h5> </span>
+			<input type = "submit" value = "Update Story">
+		</form>
 
+    {% else %}
+      {{entire}}
+    {% endif %}
+
+    <form action = "/homepage" method = "post">
+    <br>
+		<input type = "submit" value = "Return Home">
+    </form>
+  </body>
+</html>
