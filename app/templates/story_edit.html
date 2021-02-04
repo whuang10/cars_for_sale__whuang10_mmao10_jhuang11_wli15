@@ -1,1 +1,34 @@
+<!--
+Team Elephant (Jeffrey Huang, Matthew Hui, Winnie Huang, Ethan Machleder)
+SoftDev
+K15 -- Sessions Greetings
+2021-1-07
+-->
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="../static/css/layout.css">
+		<title> Edit Story </title>
+	</head>
+	<body>
+		<h1> Edit a Story </h1>
+    {% if title_list| length == 0 %}
+      <h3> There are no stories to edit, sorry :( Come abck soon! </h3>
+    {% endif %}
 
+		{% if title_list| length > 0 %}
+			<h3> Contribute to one of these stories: </h3>
+				{% for title in title_list %}
+				  <form action = "/story_view" method = "post">
+					<input type = "hidden" value = "0" name = "editor">
+					<input type = "submit" value = "{{title}}" name = "title">
+				  </form>
+				{% endfor %}
+		{% endif %}
+
+		<br>
+		<form action = "/homepage">
+			<input type = "submit" value = "Return Home">
+		</form>
+	</body>
+</html>
